@@ -1,0 +1,73 @@
+/*  Google Font CDN  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #8294C4;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gateBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.gateBox .top {
+  border: 2px solid #fff;
+  padding: 10px 30px;
+}
+
+.gateBox .bottom {
+  border: 2px solid #fff;
+  border-top: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gateBox .bottom a {
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+  transition: .3s ease-out;
+}
+
+.gateBox .bottom a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.gateBox .bottom a:first-child {
+  border-right: 2px solid #fff;
+}
+
+.cursorItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.cursorItem .circle {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #FFEAD2;
+  margin: -60px -60px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
