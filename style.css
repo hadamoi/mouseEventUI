@@ -40,13 +40,15 @@ a {
   width: 50%;
   padding: 20px;
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   transition: .3s ease-out;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .gateBox .bottom a:hover {
   background-color: #fff;
-  color: #000;
+  color: #8294C4;
 }
 
 .gateBox .bottom a:first-child {
